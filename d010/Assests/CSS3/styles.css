@@ -18,6 +18,7 @@ body {
     background: var(--cor4);
 }
 .titulo h1 {
+    padding: 1rem;
     font-size: 3.5rem;
 }
 .titulo h2 {
@@ -75,7 +76,7 @@ main {
     min-width: 30rem;
     max-width: 100rem;
     margin: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
     box-shadow: 0.1rem 1rem 2.5rem black;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
