@@ -6,3 +6,26 @@
 html{
     font-size: 62.5%;
 }
+
+body {
+   height: 100vh;
+    background-image: url(img/wallpaper003.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.main {
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding: 4rem;
+    border: 0.3rem solid black;
+    border-radius: 1.5rem;
+}
+h1 {
+    font-size: 4rem;
+}
+p {
+    font-size: 2rem;
+}
