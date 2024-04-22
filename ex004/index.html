@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="Sass.css">
+</head>
+<body>
+    <div>
+        <h1>Criando um formulário</h1>
+        <p>Exemplo de forms...</p>
+    </div>
+    <form>
+        <label for="name">Nome:
+            <input type="text" name="name" id="name" >
+        </label> <br>
+        <label for="sobrename"> Sobrenome:
+            <input type="text" name="sobrename" id="sobrename">
+        </label> <br>
+        <label id='sexo' for="sexo">
+            <p>Masculino <input type="radio" name="masc" id="masc"></p>
+            <p>Feminino <input type="radio" name="fem" id="fem"></p>
+        </label>
+        <label for="email">
+            Email: <input type="email" name="email" id="email">
+        </label> <br>
+        <input onclick="Enviar()" class="button" type="submit" value="Enviar forms">
+    </form>
+</body>
+<script src="js.js"></script>
+</html>
